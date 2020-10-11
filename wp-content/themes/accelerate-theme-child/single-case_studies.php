@@ -1,6 +1,7 @@
 <?php
 /**
- * The template for displaying all pages   OY!
+ * The template for displaying all pages   YAY!
+ *
  * 
  *
  * This is the template that displays all pages by default.
