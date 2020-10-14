@@ -87,24 +87,28 @@ section.featured-work h4 {
 	color: #333333;
 	text-transform: uppercase;
 	font-weight: 700;
+	font-family: 'Montserrat';
+
 }
 
-section.featured-work p, marker{
+section.featured-work p{
 	display: none;
 }
 
 .homepage-featured-work {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-content: center;
+	list-style-type: none;
+	width: 100%;
+	justify-items: center;
 }
 
 li.individual-featured-work h3 {
 	text-align: center;
 	color: #333333;
 	font-weight: 500;
+	font-family: 'Open-Sans';
 }
 
- section.featured-work ::marker {
-	 color: white;
- }
+ 
