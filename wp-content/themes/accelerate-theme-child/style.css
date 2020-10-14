@@ -82,3 +82,29 @@ p {
 	font-family: 'Open sans';
 }
 
+section.featured-work h4 {
+	text-align: center;
+	color: #333333;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+section.featured-work p, marker{
+	display: none;
+}
+
+.homepage-featured-work {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+li.individual-featured-work h3 {
+	text-align: center;
+	color: #333333;
+	font-weight: 500;
+}
+
+ section.featured-work ::marker {
+	 color: white;
+ }
