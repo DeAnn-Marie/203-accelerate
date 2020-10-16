@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages   YAY!
+ * The template for displaying single case studies
  *
  * 
  *
@@ -23,7 +23,7 @@ get_header(); ?>
 		$size = "full";
 		$services = get_field('services');
 		$client = get_field('client');
-		$link = get_field('link');
+		$link = get_field('site_link');
 		$image_1 = get_field('image_1');
 		$image_2 = get_field('image_2');
 		$image_3 = get_field('image_3');?>
@@ -36,7 +36,7 @@ get_header(); ?>
                
 				<?php the_content(); ?>   
 
-				<p><strong><a href="<?php echo $link; ?>">Site Link</a></strong</p>
+				<p class="read-more-link"><a href="<?php echo $link; ?>">Visit Live Site</a></p>
 		</aside>
 
 		<div class="case-study-images">

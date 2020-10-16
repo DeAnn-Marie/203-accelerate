@@ -32,7 +32,9 @@ Text Domain:  accelerate-theme-child
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
-    margin: 2em 0 .5em;
+	margin: 2em 0 .5em;
+	font-family: 'Montserrat';
+	font-size: .9375em;
 }
 
 .blog-post h3 {
@@ -50,36 +52,47 @@ Text Domain:  accelerate-theme-child
 
 aside.case-study-sidebar {
 	float: left;
-	width: 300px;
+	width: 40%;	
 }
 
 div.case-study-images {
 	float: left;
-	width: 606px;
+	width: 60%
+}
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
 }
 
 h2 {
-	font-family: 'Open-Sans';
-	font-weight: 500;
+	font-family: 'Lora';
+	font-weight: bold;
 	font-size: 1.5625em;
 }
 
 h4{
-	font-family: 'Open-Sans';
-	font-weight: 200;
+	font-family: 'Open Sans';
+	font-weight: 400;
 	color: gray;
 	margin: 0;
 }	
 
-span {
-	font-family: 'Open-Sans';
+aside.case-study-sidebar span {
+	font-family: 'Open Sans';
 	margin: 0;
-	color: black;
 	font-weight: 200;	
+	color: #3b3b3b;
 }
 
 p {
-	font-family: 'Open sans';
+	font-family: 'Open Sans';
+	width: 81%;
+	margin: 17px 0;
+}
+
+.attachment-full {
+	padding: 50px;
 }
 
 section.featured-work h4 {
@@ -88,7 +101,7 @@ section.featured-work h4 {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-family: 'Montserrat';
-
+	font-size: 1.5625em;
 }
 
 section.featured-work p{
@@ -99,16 +112,24 @@ section.featured-work p{
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
+	flex-direction: row;
 	list-style-type: none;
 	width: 100%;
-	justify-items: center;
 }
 
 li.individual-featured-work h3 {
 	text-align: center;
 	color: #333333;
-	font-weight: 500;
-	font-family: 'Open-Sans';
+	font-weight: 600;
+	font-family: 'Open Sans';
+	font-size: 1.5625em;
 }
 
- 
+ /* Archive Case Studies */
+
+ .case-study {
+	 display: flex;
+ }
+
+
+
