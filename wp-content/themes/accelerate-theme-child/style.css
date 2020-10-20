@@ -190,3 +190,16 @@ input#nf-field-8.ninja-forms-field {
 	font-size: .875em;
 	font-weight: 600;
 }
+/* About */
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+	margin-left: 135px;
+}
+
+h6 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size 25px;
+	line-height: 35px;
+	width: 50%;
+}
