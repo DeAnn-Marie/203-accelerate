@@ -190,16 +190,115 @@ input#nf-field-8.ninja-forms-field {
 	font-size: .875em;
 	font-weight: 600;
 }
-/* About */
 
-.elementor-section.elementor-section-boxed > .elementor-container {
-	margin-left: 135px;
+/* About Page */
+
+.about-page#main-content{}
+	
+
+
+.hero-area {
+	display: flex;
+	background: url("img/taxi-photo.jpg") no-repeat scroll right bottom / cover rgba(0, 0, 0, 0);
+	max-width: 100%;
+	min-height: 275px;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
 }
 
-h6 {
+.about-page h6 {
+	color: white;
+	font-family: "Open Sans";
+	font-size: 1.5625em;
+	width: 57%;
+	line-height: 1.4em;
+	margin: 0;
+	text-align: center;		
+}
+.mission-statement {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 50px 0;
+}
+.mission-statement h5 {
+	font-family: 'Montserrat';
+	font-size: .9375em;
+	font-weight: 700;
+	justify-content: center;
+}
+
+.mission-statement p {
+	width: 43%;
+	text-align: center;
+	margin: 0;
+	
+}
+
+.services {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;	
+}
+
+.services p {
 	font-family: 'Open Sans';
-	font-weight: 600;
-	font-size 25px;
-	line-height: 35px;
-	width: 50%;
+	font-size: 1.031em;
+	line-height: 1.6;
+	width: 90%;
 }
+
+.services-content, .services-social {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row-reverse;
+	width: 90%;
+}
+
+.services-influencer, .services-design {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+	width: 80%;
+}
+
+.service-influencer p {
+	width: 75%;
+}
+.content {
+	width: 65%;	
+}
+
+figure.icon {
+	width: 35%;
+}	
+
+figure.icon img {
+	width: 350px;
+	align-content: center;
+}
+
+.call-to-action {
+	display: flex;
+	width: 55%;
+	justify-content: space-around;
+}
+
+.call-to-action h3 {
+	font-family: 'Open Sans';
+	font-size: 1.5625em;
+}
+
+figure.action {
+	padding-top: 50px;
+}
+
+
+
+
+
