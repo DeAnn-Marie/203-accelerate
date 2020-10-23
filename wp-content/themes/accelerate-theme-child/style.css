@@ -154,7 +154,6 @@ ul.social-media-menu {
 	justify-content: center;
 }
 
-
 .cf-main-content {
 	width: 63%;	
 }
@@ -193,15 +192,15 @@ input#nf-field-8.ninja-forms-field {
 
 /* About Page */
 
-.about-page#main-content{}
-	
-
+.about-page#main-content{
+	max-width: 960px;
+}
 
 .hero-area {
 	display: flex;
 	background: url("img/taxi-photo.jpg") no-repeat scroll right bottom / cover rgba(0, 0, 0, 0);
 	max-width: 100%;
-	min-height: 275px;
+	min-height: 400px;
 	margin: 0;
 	justify-content: center;
 	align-items: center;
@@ -211,7 +210,7 @@ input#nf-field-8.ninja-forms-field {
 	color: white;
 	font-family: "Open Sans";
 	font-size: 1.5625em;
-	width: 57%;
+	width: 35%;
 	line-height: 1.4em;
 	margin: 0;
 	text-align: center;		
@@ -232,71 +231,80 @@ input#nf-field-8.ninja-forms-field {
 }
 
 .mission-statement p {
-	width: 43%;
+	width: 30%;
 	text-align: center;
-	margin: 0;
-	
+	margin: 0;	
+}
+
+.content {
+	max-width: 595px;
 }
 
 .services {
 	display: flex;
 	justify-content: center;
-	flex-flow: row wrap;	
+	align-content: center;
+	flex-flow: row wrap;
+	width: 100%;
 }
+
+.services h2 {
+	width: 57%;
+	font-family: 'Open Sans';
+	font-size: 1.5625em;
+	line-height: 1.4;
+}	
 
 .services p {
 	font-family: 'Open Sans';
 	font-size: 1.031em;
 	line-height: 1.6;
-	width: 90%;
+	margin: 0;
+	width: 100%
 }
 
-.services-content, .services-social {
+.strategy, .social {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-content: center;
 	flex-direction: row-reverse;
-	width: 90%;
+	width: 65%;
 }
 
-.services-influencer, .services-design {
+.influencer, .design{
 	display: flex;
-	justify-content: center;
-	align-content: center;
+	justify-content: space-around;
+	align-items: center;
 	flex-direction: row;
-	width: 80%;
+	width: 65%;
 }
-
-.service-influencer p {
-	width: 75%;
-}
-.content {
-	width: 65%;	
-}
-
-figure.icon {
-	width: 35%;
-}	
 
 figure.icon img {
-	width: 350px;
-	align-content: center;
+	width: 312px;
+	justify-content: center;
 }
 
 .call-to-action {
 	display: flex;
-	width: 55%;
-	justify-content: space-around;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
 }
 
 .call-to-action h3 {
 	font-family: 'Open Sans';
 	font-size: 1.5625em;
+	width: 97%;
+}
+
+.action-content {
+	width: 27%;
 }
 
 figure.action {
 	padding-top: 50px;
 }
+
 
 
 

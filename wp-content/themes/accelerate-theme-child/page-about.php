@@ -43,66 +43,62 @@ get_header(); ?>
 				<p><?php echo $mission; ?></p>
 		</div>
 			
-			<p><?php the_content(); ?></p>
+			
 
 		<div class="services">
-			<div class="services-content">
-				<div class="content">
+			<div class="strategy">
+				<div class="content">	
 					<h2><?php echo $service_1; ?></h2>
-					<p><?php echo $info_1; ?></p>
-				</div>
-					<figure class="icon">
-						<?php if($image_1) {
-								echo wp_get_attachment_image( $image_1, $size ) ;
-						} ?>
-					</figure>
+					<p><?php echo $info_1; ?></p>	
+				</div>	
+				<figure class="icon">
+					<?php if($image_1) {
+						echo wp_get_attachment_image( $image_1, $size ) ;
+					} ?>
+				</figure>
 			</div>
 
-			<div class="services">
-			<div class="services-influencer">
+			<div class="influencer">
 				<div class="content">
 					<h2><?php echo $service_2; ?></h2>
 					<p><?php echo $info_2; ?></p>
-				</div>
+				</div>	
 					<figure class="icon">
 						<?php if($image_2) {
-								echo wp_get_attachment_image( $image_2, $size ) ;
+							echo wp_get_attachment_image( $image_2, $size ) ;
 						} ?>
 					</figure>
 			</div>
-
-			<div class="services">
-			<div class="services-social">
+			<div class="social">
 				<div class="content">
 					<h2><?php echo $service_3; ?></h2>
 					<p><?php echo $info_3; ?></p>
 				</div>
 					<figure class="icon">
 						<?php if($image_3) {
-								echo wp_get_attachment_image( $image_3, $size ) ;
-						} ?>
+							echo wp_get_attachment_image( $image_3, $size ) ;
+							} ?>
 					</figure>
 			</div>
-
-			<div class="services">
-			<div class="services-design">
+			<div class="design">
 				<div class="content">
 					<h2><?php echo $service_4; ?></h2>
 					<p><?php echo $info_4; ?></p>
 				</div>
 					<figure class="icon">
 						<?php if($image_4) {
-								echo wp_get_attachment_image( $image_4, $size ) ;
+							echo wp_get_attachment_image( $image_4, $size ) ;
 						} ?>
 					</figure>
 			</div>
-			</div>
-
+		</div>
 			<div class="call-to-action">
-				<h3>Interested in working with us?</h3>
-				<figure class="action">
-					<a class="button" href="<?php echo site_url('/contact') ?>">Contact Us</a>
-				</figure>
+				<div class="action-content">
+					<h3>Interested in working with us?</h3>
+				</div>
+					<figure class="action">
+						<a class="button" href="<?php echo site_url('/contact') ?>">Contact Us</a>
+					</figure>
 			</div>
 
 
