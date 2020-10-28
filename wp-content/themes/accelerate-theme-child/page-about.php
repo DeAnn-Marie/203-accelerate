@@ -97,7 +97,7 @@ get_header(); ?>
 					<h3>Interested in working with us?</h3>
 				</div>
 					<figure class="action">
-						<a class="button" href="<?php echo site_url('/contact') ?>">Contact Us</a>
+						<a class="button" href="<?php echo site_url('/contact-us') ?>">Contact Us</a>
 					</figure>
 			</div>
 
