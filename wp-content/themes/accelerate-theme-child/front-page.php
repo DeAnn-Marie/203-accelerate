@@ -65,4 +65,18 @@ get_header(); ?>
  </div>
 </section>
 
+<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+  <div id="secondary" class="widget-area" role="complementary">
+    <p class="twitter-module"><?php dynamic_sidebar( 'sidebar-2' ); ?>
+      <div class="follow-us-link">
+        <a href="https://twitter.com/DeAnn_Straus">Follow Us &#8250</a>
+      </div>
+    </p>
+    
+  </div>
+<?php endif; ?>
+
+
+
 <?php get_footer(); ?>
+
